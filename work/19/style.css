@@ -1,0 +1,13 @@
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+table {
+  width: 100%;
+}
+
+td {
+  cursor: pointer;
+}

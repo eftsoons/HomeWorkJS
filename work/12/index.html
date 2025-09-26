@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>12</title>
+  </head>
+  <body>
+    <div>
+      <input
+        name="table-rows"
+        type="number"
+        onchange="inputonchangerows(event)"
+      />
+      <input
+        name="table-cols"
+        type="number"
+        onchange="inputonchangecols(event)"
+      />
+      <button onclick="rendertable()">Start</button>
+    </div>
+    <table border="1"></table>
+    <script defer src="script.js"></script>
+  </body>
+</html>
